@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harder’s Shop | Coffee & More</title>
+<meta name="description" content="Harder’s Shop – Café de calidad. Conoce nuestras variedades Gourmet, Export y Traditional y pide información por WhatsApp.">
+<style>
+:root{--brown:#2b170d;--cream:#f7efe2;--green:#1d6b3d;--gold:#b98a45}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--brown);background:var(--cream)}
+nav{position:sticky;top:0;z-index:5;background:#fffdf9dd;backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;padding:14px 6%;box-shadow:0 2px 14px #0001}
+.brand{font-family:Georgia,serif;font-size:28px;font-weight:700}.brand small{display:block;font:11px Arial;letter-spacing:4px;text-align:center}
+nav a{color:var(--brown);text-decoration:none;margin:0 10px;font-weight:600}.wa{background:var(--green);color:white!important;padding:12px 18px;border-radius:30px}
+.hero{min-height:72vh;background:linear-gradient(90deg,#0009,#0002),url('cafe-harders-shop.jpg') center/cover;display:flex;align-items:center;padding:70px 7%;color:white}
+.hero-content{max-width:650px}.hero h1{font:clamp(45px,7vw,82px) Georgia,serif;margin:0 0 16px}.hero p{font-size:22px;line-height:1.45}.cta{display:inline-block;margin-top:18px;background:var(--green);color:#fff;text-decoration:none;padding:15px 25px;border-radius:32px;font-weight:700}
+section{padding:75px 7%}.title{text-align:center;font:48px Georgia,serif;margin:0 0 12px}.subtitle{text-align:center;max-width:700px;margin:0 auto 42px;color:#6b5545}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 28px #0001}.card img{width:100%;height:390px;object-fit:contain;background:#f4eadb}.card-body{padding:24px}.card h3{font:32px Georgia,serif;margin:0 0 8px}.card p{line-height:1.55;color:#5e4a3b}
+.qualities{background:var(--brown);color:#fff;display:grid;grid-template-columns:repeat(5,1fr);gap:18px;text-align:center}.quality{padding:10px}.icon{font-size:35px}.quality strong{display:block;margin-top:8px}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.story img{width:100%;border-radius:24px}.story h2{font:44px Georgia,serif;margin-top:0}
+.contact{background:#efe1ce;text-align:center}.contact-box{max-width:700px;margin:auto}.contact h2{font:44px Georgia,serif}.number{font-size:30px;font-weight:800;letter-spacing:1px}
+footer{background:#1b0e08;color:#fff;padding:30px 7%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){nav .links{display:none}.products{grid-template-columns:1fr}.qualities{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}.hero{min-height:65vh;padding:55px 6%}.hero h1{font-size:52px}.card img{height:330px}}
+@media(max-width:500px){.qualities{grid-template-columns:1fr}.title{font-size:38px}.number{font-size:24px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand">Harder’s Shop<small>COFFEE & MORE</small></div>
+  <div class="links"><a href="#cafes">Nuestros cafés</a><a href="#calidad">Calidad</a><a href="#historia">Nuestra historia</a><a href="#contacto">Contacto</a></div>
+  <a class="wa" href="https://wa.me/526361345516?text=Hola%20Harder%E2%80%99s%20Shop,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20caf%C3%A9." target="_blank">Pedir por WhatsApp</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Más que café,<br>una experiencia.</h1>
+    <p>Café de calidad para disfrutar en cada taza.</p>
+    <a class="cta" href="https://wa.me/526361345516?text=Hola%20Harder%E2%80%99s%20Shop,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20caf%C3%A9." target="_blank">☕ Pedir por WhatsApp</a>
+  </div>
+</header>
+
+<section id="cafes">
+  <h2 class="title">Nuestros Cafés</h2>
+  <p class="subtitle">Tres opciones para disfrutar un café de calidad. Pregunta por disponibilidad y precios directamente por WhatsApp.</p>
+  <div class="products">
+    <article class="card"><img src="gourmet.jpg" alt="Café Gourmet Harder’s Shop"><div class="card-body"><h3>Gourmet</h3><p><b>Light Roast Whole Bean Coffee</b><br>Una opción suave y aromática para disfrutar cada taza.</p></div></article>
+    <article class="card"><img src="export.jpg" alt="Café Export Harder’s Shop"><div class="card-body"><h3>Export</h3><p><b>Medium Roast Ground Coffee</b><br>Equilibrio de sabor y aroma para el día a día.</p></div></article>
+    <article class="card"><img src="traditional.jpg" alt="Café Traditional Harder’s Shop"><div class="card-body"><h3>Traditional</h3><p><b>Dark Roast Ground Coffee</b><br>Sabor intenso y auténtico para los amantes del buen café.</p></div></article>
+  </div>
+</section>
+
+<section id="calidad" class="qualities">
+  <div class="quality"><div class="icon">🌿</div><strong>100% Natural</strong></div>
+  <div class="quality"><div class="icon">⛰️</div><strong>Café de altura</strong></div>
+  <div class="quality"><div class="icon">🫘</div><strong>Café Arábica</strong></div>
+  <div class="quality"><div class="icon">☕</div><strong>Tostado artesanal</strong></div>
+  <div class="quality"><div class="icon">❤️</div><strong>Sabor único</strong></div>
+</section>
+
+<section id="historia">
+  <div class="story">
+    <img src="cafe-harders-shop.jpg" alt="Café Harder’s Shop">
+    <div><h2>Nuestra Historia</h2><p>En <b>Harder’s Shop</b> creemos que una buena taza de café puede crear momentos especiales. Por eso presentamos nuestras variedades Gourmet, Export y Traditional para que cada persona encuentre su forma favorita de disfrutar el café.</p><p><i>Más que café, buenos momentos.</i></p></div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <div class="contact-box">
+    <h2>¿Quieres más información?</h2>
+    <p>Escríbenos por WhatsApp y con gusto te atendemos.</p>
+    <div class="number">636 134 5516</div>
+    <a class="cta" href="https://wa.me/526361345516?text=Hola%20Harder%E2%80%99s%20Shop,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20caf%C3%A9." target="_blank">📲 Escribir por WhatsApp</a>
+  </div>
+</section>
+
+<footer><div><b>Harder’s Shop</b><br>COFFEE & MORE</div><div>Más que café, una experiencia. ☕</div></footer>
+</body>
+</html>
